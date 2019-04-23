@@ -1,7 +1,7 @@
 /* -----------Button------------- */
 .btn {
     border: 3px solid black;
-    background-color: #fa7268;
+    background-color: #FFB6C1;
     color: black;
     border-radius: 10px;
     padding: 5px 20px;
@@ -58,15 +58,22 @@
   }
   /* -----------body background------------- */
   body {
-    background-color:#fa7268;
+    background-color:#FFB6C1;
   }
    /* ----------- pin input------------- */
    pin {
-    font-weight: normal;
+    font-weight: bold;
     text-align: center;
-    font-size: 24px;
+    font-size: 36px;
     text-transform: uppercase;
     color: 	black;
+  }
+  id{
+    font-weight: bold;
+    text-align: center;
+    font-size: 38px;
+    text-transform: uppercase;
+    color:  black;
   }
   selectf {
     font-weight: normal;
@@ -93,5 +100,5 @@
     border-radius: 30px;
     box-sizing: border-box;
   }
-   /* ----------- drop down------------- */
+
 

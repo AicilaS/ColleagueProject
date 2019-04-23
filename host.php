@@ -11,8 +11,16 @@
     <link rel="stylesheet" href="CSS.css">
   </head>
 
+    <title>Change Placeholder alignment</title> 
+        <style> 
+            input[type="room_name"]{  
+                text-align: center; 
+            } 
+        </style> 
+
   <body>
-    <center><img src="img\UI\NameWhite.png" alt="Girl in a jacket" style="width:500px;height:280px;"></center>
+    <center><img src="img\UI\NameWhite.png" alt="Girl in a jacket" style="width:400px;height:400px;"></center>
+    <br><button type="submit" class="btn join" onclick="window.location.href='../client.php'">Back </button>
     <form action="host.php" method="POST" name="myFormLogin" id="myFormLogin" class="needs-validation" novalidate>
     <div class="row">
       <div class="col-sm-4"></div>
@@ -25,6 +33,7 @@
     <div class="row">
       <div class="col-sm-4"></div>
       <div class="col-sm-4">
+        <br>
         <center><selectf>number per group </selectf></center> 
         <div class="input-group-prepend">        
           <select name="team_size" class="custom-select" id="Select01">
@@ -35,7 +44,8 @@
             ?>
           </select>
         </div>
-        <input type="image" src="img\UI\create.png" alt="submit" width="250" height="70">
+        <br><br>
+        <center><input type="image" src="img\UI\create.png" alt="submit" width="250" height="70"></center>
       <div class="col-sm-4"></div>
     </div>
     </form>
